@@ -56,7 +56,7 @@ Every signal, classification, and decision must be:
 
 ### 1. Indicator System
 
-**11 Technical Indicators with Precise Configurations:**
+**14 Technical Indicators with Precise Configurations:**
 
 From `STRATEGY_CONFIG.json`, all indicators have:
 - **Weights:** Contribution to total signal score (-220 to +220 range)
