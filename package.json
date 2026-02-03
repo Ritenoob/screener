@@ -1,0 +1,31 @@
+{
+  "name": "miniature-enigma-screener",
+  "version": "1.0.0",
+  "description": "AGI-Level KuCoin Futures Trading Bot with Dynamic Coin Screener",
+  "main": "src/backend/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/backend/index.js",
+    "dev": "node --watch src/backend/index.js",
+    "test": "node --test tests/",
+    "lint": "eslint src/ --ext .js,.ts",
+    "build:dashboard": "cd src/dashboard && npm run build"
+  },
+  "keywords": ["trading", "crypto", "kucoin", "futures", "screener", "bot"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "fastify": "^5.7.2",
+    "@fastify/websocket": "^11.0.2",
+    "@fastify/cors": "^11.0.0",
+    "ws": "^8.17.1",
+    "dotenv": "^16.4.0",
+    "pino": "^8.19.0",
+    "pino-pretty": "^10.3.0",
+    "crypto-js": "^4.2.0",
+    "technicalindicators": "^3.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0"
+  }
+}
